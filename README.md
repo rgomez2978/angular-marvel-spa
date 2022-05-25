@@ -21,6 +21,7 @@ A continuación se indican las librerias necesarias para la ejecución del proye
     npm install animate.css --save-dev
     npm install bootstrap --save -exact
     npm install zone.js --save-dev
+    ng add angular-cli-ghpages
 
 
 ## Levantar proyecto Angular
@@ -33,7 +34,10 @@ A continuación se indican las librerias necesarias para la ejecución del proye
 ## Exportar proyecto - Build
 ---
 
-Ejecute el comando `ng build` para exportar el proyecto. Al exportar el proyecto se almacenarán en el directorio `dist/`. Utilice el flag `--prod` para exportar hacia produccion.
+Ejecute el comando `ng build` para exportar el proyecto. Al exportar el proyecto se almacenarán en el directorio `docs/`. Utilice el flag `--base-href` para exportar hacia produccion.
+
+ng build --base-href=https://rgomez2978.github.io/angular-marvel-spa/
+
 
 
 ## Screenshots del proyecto
