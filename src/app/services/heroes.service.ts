@@ -57,7 +57,7 @@ export class HeroesService {
     ];
 
     constructor() {
-        console.log('Servicios listo para usar !!!');
+        // console.log('Servicios listo para usar !!!');
     }
 
     getHeroes(): HeroeInterface[] {

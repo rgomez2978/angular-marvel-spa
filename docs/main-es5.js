@@ -1066,8 +1066,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this._heroresService = _heroresService;
         this.router = router;
-        this.heroes = [];
-        console.log('Constructor');
+        this.heroes = []; // console.log('Constructor');
       }
 
       _createClass(HeroesComponent, [{
@@ -1509,8 +1508,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           img: './assets/img/wolverine.png',
           aparicion: '1974-11-01',
           casa: 'Marvel'
-        }];
-        console.log('Servicios listo para usar !!!');
+        }]; // console.log('Servicios listo para usar !!!');
       }
 
       _createClass(HeroesService, [{

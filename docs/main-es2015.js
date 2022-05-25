@@ -515,7 +515,7 @@ class HeroesComponent {
         this._heroresService = _heroresService;
         this.router = router;
         this.heroes = [];
-        console.log('Constructor');
+        // console.log('Constructor');
     }
     ngOnInit() {
         this.heroes = this._heroresService.getHeroes();
@@ -742,7 +742,7 @@ class HeroesService {
                 casa: 'Marvel'
             }
         ];
-        console.log('Servicios listo para usar !!!');
+        // console.log('Servicios listo para usar !!!');
     }
     getHeroes() {
         return this.heroes;
