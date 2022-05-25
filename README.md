@@ -1,27 +1,39 @@
-# Spa
+![styles](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![styles](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![styles](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![styles](https://img.shields.io/badge/ARRAY-gray?style=for-the-badge&logo=json&logoColor=white)
+# Aplicación Angular de una sola página - Heroes de Marvel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+Projecto de SPA sobre los heroes de MArvel, Elaborado en [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6, Typescript, Bootstrap 4, carga de datos desde array.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación de Librerias
+---
 
-## Build
+A continuación se indican las librerias necesarias para la ejecución del proyecto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    npm install jquery --save-dev
+    npm install @types/jquery --save-dev
+    npm install -D @types/jquery --save-dev
+    npm install jquery.easing --save-dev
+    npm install animate.css --save-dev
+    npm install bootstrap --save -exact
+    npm install zone.js --save-dev
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Levantar proyecto Angular
+---
 
-## Running end-to-end tests
+    ng serve
+    ng serve -o
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Exportar proyecto - Build
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ejecute el comando `ng build` para exportar el proyecto. Al exportar el proyecto se almacenarán en el directorio `dist/`. Utilice el flag `--prod` para exportar hacia produccion.
+
+
+## Screenshots del proyecto
