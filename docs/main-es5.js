@@ -78,7 +78,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     _createClass(function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'Single Aplication Page';
+      this.title = 'Single Page Aplication';
     });
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
