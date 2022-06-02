@@ -38,6 +38,12 @@ Ejecute el comando `ng build` para exportar el proyecto. Al exportar el proyecto
 
     ng build --base-href=https://rgomez2978.github.io/angular-marvel-spa/
 
+## Exportar proyecto en rama githubpage
+---
+
+Ejecute el comando `ng deploy` para exportar el proyecto. Al exportar el proyecto se almacenarán en el directorio `docs/`. Utilice el flag `--base-href` para exportar hacia produccion.
+
+    ng deploy --base-href=https://rgomez2978.github.io/angular-marvel-spa/
 
 
 ## Screenshots del proyecto
