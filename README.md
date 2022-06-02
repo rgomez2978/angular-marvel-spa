@@ -2,9 +2,9 @@
 ![styles](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![styles](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![styles](https://img.shields.io/badge/ARRAY-gray?style=for-the-badge&logo=json&logoColor=white)
-# Aplicación Angular de una sola página - Heroes de Marvel
+# Aplicación Angular - Página simple de Heroes de Marvel
 
-Projecto de SPA sobre los heroes de MArvel, Elaborado en [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6, Typescript, Bootstrap 4, carga de datos desde array.
+Proyecto de SPA sobre los heroes de Marvel, Elaborado en [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6, Typescript, Bootstrap 4, carga de datos desde array.
 
 [DEMO](https://rgomez2978.github.io/angular-marvel-spa/)
 
